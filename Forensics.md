@@ -62,7 +62,7 @@ https://en.wikipedia.org/wiki/List_of_file_signatures
  وارد تلاقي كلمة السر فيه ..strings ممكن تعمل امر
 
 - `strings <file name>`
- او ممكن تلاقيه في الوصف بتاع التحدي
+- او ممكن تلاقيه في الوصف بتاع التحدي
 
 
 ## 4. Look for embedded files
