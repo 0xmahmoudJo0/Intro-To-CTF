@@ -21,7 +21,8 @@
        Commands وال Tools يكون عندك معرفة كافية بأنظمة التشغيل وخاصة اللينكس عشان تعرف تتعامل مع ال
 - *Scripting language* >>
        automation في حاجات هتحتاج يتعملها manuallyلازم تكون عارف ولو علي الاقل لغة برمحة عشان مش كل حاجة هتتعمل 
-      *more programming skills more efficient in cyber security*
+      
+                   *more programming skills more efficient in cyber security*
 
 - *Analytical Skills*  >> 
        احنا كلنا بنحل عشان نتعلم فطبيعي جدا انك تلاقي حاجة جديدة اول مرة تشوفها ..فمستغربش وتقول دي صعبة 
