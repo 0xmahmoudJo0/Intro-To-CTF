@@ -53,11 +53,11 @@ https://en.wikipedia.org/wiki/List_of_file_signatures
 ## 3. Search for password 
 
    - فيه تحديات بتبقي عشان تفتحها لاوم يكون معاك كلمة سر معينة
- ### عليها !!ا`Brute Force`هتقولي هعمل 
+ #### عليها !!ا`Brute Force`هتقولي هعمل 
  
 اللي حددتهاwordlist مش في أغلب التحديات بتكون كلمة السر في ال
 
-#### طب اعمل ايه في الحالة دي يعني؟؟
+##### طب اعمل ايه في الحالة دي يعني؟؟
  وارد تلاقي كلمة السر فيه ..strings ممكن تعمل امر
 
 - `strings <file name>`
@@ -84,7 +84,8 @@ https://en.wikipedia.org/wiki/List_of_file_signatures
 المعني الحرفي ليها هو اخفاء المعلومات 
 
 وبتنقسم انواع النوع ده اللي نوعين 
-Audio Steganography , Image Steganography 
+
+### Audio Steganography , Image Steganography 
 
 1. Image Steganography 
 
