@@ -40,12 +40,14 @@
                                                * Don't Trust Extention *
 
 2. Looking at hex of file "magic bytes"
+
 "corrupted" ساعات فيه تحديات لما بتحملها بيكون الملف بتاعها مش سليم 
  وبتحاول تظبطهاmagic bytes في الحالة دي بتبص علي ال 
   اللي هتحتاجها magic bytesوده لينك في انواع ال 
 https://en.wikipedia.org/wiki/List_of_file_signatures
 
 3. Search for password 
+
    فيه تحديات بتبقي عشان تفتحها لاوم يكون معاك كلمة سر معينة
  عليها !!اBrute Forceهتقولي هعمل  
 اللي حددتهاwordlist مش في أغلب التحديات بتكون كلمة السر في ال
@@ -57,6 +59,7 @@ https://en.wikipedia.org/wiki/List_of_file_signatures
 
 
 4. Look for embedded files
+
 بتبقي موجود فيها ملفات مستخبية Forensics اغلب تحديات ال 
 طب بجبها ازاي الملفات دي ؟؟؟
 فيه امرين في اللينكس بيعملوا الكلام ده وهما 
@@ -83,10 +86,10 @@ Audio Steganography , Image Steganography
 https://www.poftut.com/how-to-install-and-use-exiftool-in-linux-windows-kali-ubuntu-mint-with-examples/
 المودودة في الملف metadata ولكن دي بتطله ال strings ودي شبيه للامر 
 
--Gimp2 
+- Gimp2 
 ده برنامج عرض للصور ولكن بتغير في تباين الصورة ممكن تلاقي كلام او شفرة توصلك للفلاج
 
--stegsolve
+- stegsolve
 Steganography ولكن دي بتبقي احترافية اكتر ومتخصصة في ال Gimpتعتبر شبه ال 
 
 - zsteg 
@@ -111,6 +114,7 @@ Tools >>
     - Deep Sound > download > https://deepsound.en.uptodown.com/windows
 
 شرح الادوات موجود في الفيديو 
+
 ---------------------------
 *Memory Forensics*
 
