@@ -41,13 +41,13 @@
 ------------------------------------------------------------------------
 فى مصر بيبقى فيه اكتر من جهة بتنظم المسابقات دي
 ​
-Arab War Games
-Cyber Talent ​
-EG Cert​
-BSides Cairo (Hack The Box)​
+- Arab War Games
+- Cyber Talent ​
+- EG Cert​
+- BSides Cairo (Hack The Box)​
 
 ----------------------------------------------------------------------------
 
 و هنحاول على قد ما نقدر الشرح يكون بسيط و يساعد الناس الى لسة هتبدأ انها تحل
 
-prepared with Mohammed.Hassan
+All of That prepared with Mohammed.Hassan
