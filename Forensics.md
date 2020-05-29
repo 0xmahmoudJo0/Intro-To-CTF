@@ -1,6 +1,6 @@
 # Digital Forensics
 
-###بسم الله الرحمن الرحيم 
+### بسم الله الرحمن الرحيم  
 
 *Forensics* وهو ال CTF النهاردة هيكون معانا اول نوع من تحديات التقاط العلم
  هحاول اشرح التحدي بطريقة مبسطة وسهلة في هيئة نقاط 
@@ -20,9 +20,9 @@
 - *Operating System Knowledge* >>
        Commands وال Tools يكون عندك معرفة كافية بأنظمة التشغيل وخاصة اللينكس عشان تعرف تتعامل مع ال
 - *Scripting language* >>
-       automation في حاجات هتحتاج يتعملها manuallyلازم تكون عارف ولو علي الاقل لغة برمحة عشان مش كل حاجة هتتعمل 
+        automation في حاجات هتحتاج يتعملها manuallyلازم تكون عارف ولو علي الاقل لغة برمحة عشان مش كل حاجة هتتعمل 
       
-                   *more programming skills more efficient in cyber security*
+                                *more programming skills more efficient in cyber security*
 
 - *Analytical Skills*  >> 
        احنا كلنا بنحل عشان نتعلم فطبيعي جدا انك تلاقي حاجة جديدة اول مرة تشوفها ..فمستغربش وتقول دي صعبة 
@@ -50,12 +50,12 @@ https://en.wikipedia.org/wiki/List_of_file_signatures
 3. Search for password 
 
    فيه تحديات بتبقي عشان تفتحها لاوم يكون معاك كلمة سر معينة
- عليها !!اBrute Forceهتقولي هعمل  
+ عليها !!ا`Brute Force`هتقولي هعمل  
 اللي حددتهاwordlist مش في أغلب التحديات بتكون كلمة السر في ال
 
 طب اعمل ايه في الحالة دي يعني؟؟
  وارد تلاقي كلمة السر فيه ..strings ممكن تعمل امر
- strings <file name>
+ `strings <file name>`
  او ممكن تلاقيه في الوصف بتاع التحدي
 
 
@@ -66,14 +66,14 @@ https://en.wikipedia.org/wiki/List_of_file_signatures
 فيه امرين في اللينكس بيعملوا الكلام ده وهما 
 foremost , binwalk 
 
-foremost <file name>
-binwalk --dd='.*' <file name>
+`foremost <file name>`
+`binwalk --dd='.*' <file name>`
 
 طب يعني بعد اما اعمل الكلام ده هلاقي الفلاج ؟؟
 في ساعات بتلاقيه وساعات بتلاقي حاجات تساعدك في انك توصله 
 
 -------------------------------
-Steganographyنيجي بقي لاول نوع معانا وهو ال 
+*Steganography *نيجي بقي لاول نوع معانا وهو ال 
 
 المعني الحرفي ليها هو اخفاء المعلومات 
 
@@ -85,24 +85,24 @@ Audio Steganography , Image Steganography
 - Exiftool  
 ودي طريقة تسطيبها 
 https://www.poftut.com/how-to-install-and-use-exiftool-in-linux-windows-kali-ubuntu-mint-with-examples/
-المودودة في الملف metadata ولكن دي بتطله ال strings ودي شبيه للامر 
+المودودة في الملف `metadata` ولكن دي بتطله ال strings ودي شبيه للامر 
 
 - Gimp2 
 ده برنامج عرض للصور ولكن بتغير في تباين الصورة ممكن تلاقي كلام او شفرة توصلك للفلاج
 
-- stegsolve
+- `stegsolve`
 Steganography ولكن دي بتبقي احترافية اكتر ومتخصصة في ال Gimpتعتبر شبه ال 
 
-- zsteg 
+- `zsteg` 
 للداتا اللي داخل الملف extract دي اداة بتعمل 
 
-- steghide
+- `steghide`
 JPEGللداتا اللي داخل الصورة ال  extract دي اداة بتعمل
 
-- stegcracker 
+- `stegcracker` 
  لكلمة السر للصورة عشان تقدر تستخرج الداتا اللي جواBrute Forceدي بتعمل 
 
-- Openstego
+- `Openstego`
 PNG للداتا اللي داخل الصورة ال  extract دي اداة بتعمل
 
 
