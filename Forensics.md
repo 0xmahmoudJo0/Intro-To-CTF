@@ -129,11 +129,11 @@ Tools >>
 
 ---------------------
 
-4. Packet Analysis
+## 4. Packet Analysis
 وبتحاول تحلل الملف ده وبتطبع الفلاج او حاجة توصلك ليه pcap & pcapng النوع ده من التحديات بيبقي معاك ملف
 
-Tools >> Wireshark & Network miner  
-Website >> https://packettotal.com/
+- Tools >> Wireshark & Network miner  
+- Website >> https://packettotal.com/
 
 وبتحاول تطلع اي داتا من جواpcap الادوات دي بتحلل الملفات ال
 
@@ -141,7 +141,7 @@ Website >> https://packettotal.com/
 
 ------------------------------------
 
-5. Misc
+## 5. Misc
 فملوش قاعدة ثابتة عشان نوضحها Search النوع ده من التحديات بيعتمد بشكل كبير علي ال
 ويعتبر النوع ده من الانواع الجميلة جدا لانها بتنمي مهارة البحث عندك وده من اهم الحاجات المطلوبة في امن المعلومات بس مش في تحديات التقاط العلم بس
 
