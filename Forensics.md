@@ -24,7 +24,7 @@
       
                                 *more programming skills more efficient in cyber security*
 
-4. *Analytical Skills*  >> 
+## 4. *Analytical Skills*  >> 
 
     - احنا كلنا بنحل عشان نتعلم فطبيعي جدا انك تلاقي حاجة جديدة اول مرة تشوفها ..فمستغربش وتقول دي صعبة 
        مفيش حاجة صعبة مع التعليم فحاول تفكر بطريقة مختلفة مع الحاجة اللي اول مرة تشوفها ..يعني مثلا لقيت نوع ملف اول مرة تشوفه
@@ -34,7 +34,7 @@
 ------------------------------
 *Solving Steps* نبدأ بقي ف ال  
 
-1. View File
+## 1. View File
 
 - << file command >> Forensicsده من اهم الاوامر في تحديات ال 
 
@@ -43,31 +43,32 @@
 
                                                * Don't Trust Extention *
 
-2. Looking at hex of file "magic bytes"
+## 2. Looking at hex of file "magic bytes"
 
 "corrupted" ساعات فيه تحديات لما بتحملها بيكون الملف بتاعها مش سليم 
  وبتحاول تظبطهاmagic bytes في الحالة دي بتبص علي ال 
   اللي هتحتاجها magic bytesوده لينك في انواع ال 
 https://en.wikipedia.org/wiki/List_of_file_signatures
 
-3. Search for password 
+## 3. Search for password 
 
-   فيه تحديات بتبقي عشان تفتحها لاوم يكون معاك كلمة سر معينة
- عليها !!ا`Brute Force`هتقولي هعمل  
+   - فيه تحديات بتبقي عشان تفتحها لاوم يكون معاك كلمة سر معينة
+ ### عليها !!ا`Brute Force`هتقولي هعمل 
+ 
 اللي حددتهاwordlist مش في أغلب التحديات بتكون كلمة السر في ال
 
-طب اعمل ايه في الحالة دي يعني؟؟
+#### طب اعمل ايه في الحالة دي يعني؟؟
  وارد تلاقي كلمة السر فيه ..strings ممكن تعمل امر
  `strings <file name>`
  او ممكن تلاقيه في الوصف بتاع التحدي
 
 
-4. Look for embedded files
+## 4. Look for embedded files
 
 بتبقي موجود فيها ملفات مستخبية Forensics اغلب تحديات ال 
-طب بجبها ازاي الملفات دي ؟؟؟
+- طب بجبها ازاي الملفات دي ؟؟؟
 فيه امرين في اللينكس بيعملوا الكلام ده وهما 
-foremost , binwalk 
+`foremost` ,` binwalk `
 
 `foremost <file name>`
 `binwalk --dd='.*' <file name>`
@@ -76,7 +77,7 @@ foremost , binwalk
 في ساعات بتلاقيه وساعات بتلاقي حاجات تساعدك في انك توصله 
 
 -------------------------------
-*Steganography *نيجي بقي لاول نوع معانا وهو ال 
+*Steganography* نيجي بقي لاول نوع معانا وهو ال  
 
 المعني الحرفي ليها هو اخفاء المعلومات 
 
