@@ -18,9 +18,9 @@
 1. *Networking* >>
       - Packet analysis يكون عندك معرفة كافية بالشبكات وده هينفعك جدا وخاصة في تحديات ال 
 2. *Operating System Knowledge* >>
-       - Commands وال Tools يكون عندك معرفة كافية بأنظمة التشغيل وخاصة اللينكس عشان تعرف تتعامل مع ال
+- Commands وال Tools يكون عندك معرفة كافية بأنظمة التشغيل وخاصة اللينكس عشان تعرف تتعامل مع ال
 3. *Scripting language* >>
-        - automation في حاجات هتحتاج يتعملها manuallyلازم تكون عارف ولو علي الاقل لغة برمحة عشان مش كل حاجة هتتعمل 
+- automation في حاجات هتحتاج يتعملها manuallyلازم تكون عارف ولو علي الاقل لغة برمحة عشان مش كل حاجة هتتعمل 
       
                                 *more programming skills more efficient in cyber security*
 
