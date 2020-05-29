@@ -59,7 +59,8 @@ https://en.wikipedia.org/wiki/List_of_file_signatures
 
 #### طب اعمل ايه في الحالة دي يعني؟؟
  وارد تلاقي كلمة السر فيه ..strings ممكن تعمل امر
- `strings <file name>`
+
+- `strings <file name>`
  او ممكن تلاقيه في الوصف بتاع التحدي
 
 
@@ -68,7 +69,8 @@ https://en.wikipedia.org/wiki/List_of_file_signatures
 بتبقي موجود فيها ملفات مستخبية Forensics اغلب تحديات ال 
 - طب بجبها ازاي الملفات دي ؟؟؟
 فيه امرين في اللينكس بيعملوا الكلام ده وهما 
-`foremost` ,` binwalk `
+
+- `foremost` ,` binwalk `
 
 `foremost <file name>`
 `binwalk --dd='.*' <file name>`
