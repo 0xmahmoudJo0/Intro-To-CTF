@@ -13,23 +13,23 @@
 ( 1 )jeopardy
 
 :وينقسم إلي
-Cryptography
-Pwn
-Web
-Forensics and steganography
-open source intelligence
-Reverse Engineering
+1. Cryptography
+2. Pwn
+3. Web
+4. Forensics and steganography
+5. open source intelligence
+6. Reverse Engineering
 
 ( 2 ) Machines
 
 ------------------------------------------------------------------
 طب ايه هي المواقع اللي تقدر تدرب من خلالها على التحديات دي ؟؟
 فيه مواقع كتير زي :-​
-PicoCTF >> https://2018game.picoctf.com/​
-Cyber Talent >> https://cybertalents.com/​
-Over The Wire >> https://overthewire.org/wargames/​
-Hack The Box >> https://www.hackthebox.eu/home​
-CTFlearn >> https://ctflearn.com/​
+- PicoCTF >> https://2018game.picoctf.com/​
+- Cyber Talent >> https://cybertalents.com/​
+- Over The Wire >> https://overthewire.org/wargames/​
+- Hack The Box >> https://www.hackthebox.eu/home​
+- CTFlearn >> https://ctflearn.com/​
 
 -----------------------------------------------------------------------
 طب انت حاولت تحل علي اي موقع من دول ومعرفتش تبقي انت فاشل ومش هتتعلم؟
