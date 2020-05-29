@@ -22,7 +22,8 @@
 3. *Scripting language* >>
   - automation في حاجات هتحتاج يتعملها manuallyلازم تكون عارف ولو علي الاقل لغة برمحة عشان مش كل حاجة هتتعمل 
       
-                                *more programming skills more efficient in cyber security*
+                                
+                               **more programming skills more efficient in cyber security**
 
 ## 4. *Analytical Skills*  >> 
 
@@ -32,7 +33,7 @@
        :) ومع البحث اكيد هتلاقي حاجة تفيدك وتخليك تحل التحدي ده 
 
 ------------------------------
-*Solving Steps* نبدأ بقي ف ال  
+**Solving Steps** نبدأ بقي ف ال  
 
 ## 1. View File
 
@@ -124,8 +125,14 @@ Tools >>
 شرح الادوات موجود في الفيديو 
 
 ---------------------------
-*Memory Forensics*
+**Memory Forensics**
+دي تحليلات جنائية للذاكرة عشان تحقق في الهجمات ..Memory Forensicsاول حاجة لازم نعرف ايه هي ال 
+والسلوكيات اللي كانت علي الميموري دي ..وفي النوع انت بتحاول تلاقي العلم باستخدام بعض الادوات
 
+Tools >> **Volatility**
+- ان لم تكن الوحيدة Memory Forensicsالاداة دي من اهم ادوات ال 
+بتساعد في عملية التحليل للملفات Profiles الاداة دي بتحتوي علي
+الشرح التفصيلي للاداة موجود في الفيديو 
 
 ---------------------
 
@@ -160,6 +167,11 @@ References
 - Digital forensics req : https://blog.eccouncil.org/6-skills-required-for-a-career-in-digital-forensics/
 - Steganography : https://en.wikipedia.org/wiki/Steganography
 - Tools : https://0xrick.github.io/lists/stego/
+- volatility : https://www.volatilityfoundation.org/
+- volatility win profiles : https://github.com/volatilityfoundation/volatility/wiki/2.6-Win-Profiles
+- volatility linux & mac profiles : https://github.com/volatilityfoundation/profiles
+- volatility sans cheatsheet : https://www.google.com/url?sa=t&source=web&rct=j&url=https://digital-forensics.sans.org/media/volatility-memory-forensics-cheat-sheet.pdf&ved=2ahUKEwiH8cTnnNrpAhUL1BoKHULjBYAQFjAAegQIARAB&usg=AOvVaw0u0xJTHhvJH6YL4oRHcFWj
+- auto_vol :   https://github.com/TeamCTF-PRIME/auto_vol
 
 
 
