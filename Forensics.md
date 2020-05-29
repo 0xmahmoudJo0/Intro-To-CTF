@@ -155,6 +155,10 @@ Tools >> **Volatility**
 اللي مشروح في الفيديو log وفي مثال للنوع ده وهو ملف ال
 
 -------------------------------------
+**Channel**
+https://www.youtube.com/channel/UCrPC4mhXYblRN2vRIJLpLGg
+
+
 References 
 
 - Notes : https://0xmohammed.github.io/Digital-Forensics/#
