@@ -4,6 +4,7 @@
 
 *Forensics* وهو ال CTF النهاردة هيكون معانا اول نوع من تحديات التقاط العلم
  هحاول اشرح التحدي بطريقة مبسطة وسهلة في هيئة نقاط 
+
 ------------------
 اول حاجة لازم نعرف ايه هي اقسام النوع ده من التحديات 
  1. Steganography
@@ -20,7 +21,7 @@
        Commands وال Tools يكون عندك معرفة كافية بأنظمة التشغيل وخاصة اللينكس عشان تعرف تتعامل مع ال
 - *Scripting language* >>
        automation في حاجات هتحتاج يتعملها manuallyلازم تكون عارف ولو علي الاقل لغة برمحة عشان مش كل حاجة هتتعمل 
-      ### " more programming skills more efficient in cyber security " 
+      *more programming skills more efficient in cyber security*
 
 - *Analytical Skills*  >> 
        احنا كلنا بنحل عشان نتعلم فطبيعي جدا انك تلاقي حاجة جديدة اول مرة تشوفها ..فمستغربش وتقول دي صعبة 
@@ -36,7 +37,7 @@
 طب ده ايه لازمته يا معلم ؟؟
 ده لازمته انك تعرف نوع الملف ده ايه ..لأنه علي حسب نوع الملف هتتعامل بطريقة مختلفة..لأن مش دايما بيكون الامتداد صح  
 
-<< Don't Trust Extention >>
+                                               * Don't Trust Extention *
 
 2. Looking at hex of file "magic bytes"
 "corrupted" ساعات فيه تحديات لما بتحملها بيكون الملف بتاعها مش سليم 
