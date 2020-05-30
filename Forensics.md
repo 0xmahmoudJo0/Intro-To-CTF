@@ -42,7 +42,7 @@
 - طب ده ايه لازمته يا معلم ؟؟
 ده لازمته انك تعرف نوع الملف ده ايه ..لأنه علي حسب نوع الملف هتتعامل بطريقة مختلفة..لأن مش دايما بيكون الامتداد صح  
 
-                                               * Don't Trust Extention *
+                                               * Don't Trust Extension *
 
 ## 2. Looking at hex of file "magic bytes"
 
