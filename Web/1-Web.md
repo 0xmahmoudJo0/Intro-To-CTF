@@ -42,16 +42,16 @@ Browser للي جاي من Requestال capture عشان تعرف تfoxyproxyاس
 
     - `**gobuster**`
      ---*---*---*
-طريقة تنزيلها لو مش مو جودة عندك 
+- طريقة تنزيلها لو مش مو جودة عندك 
 - `sudo apt-get install gobuster`
 ![alt text](2.jpeg)
 
 (Brute Force on Directories)ودي الطريقة لو عايز تعمل 
 ![alt text](3.jpeg)
 
-وبص بصة علي الموقع ده 
+- وبص بصة علي الموقع ده 
 
-`https://redteamtutorials.com/2018/11/19/gobuster-cheatsheet`
+- https://redteamtutorials.com/2018/11/19/gobuster-cheatsheet
    
     - `**wfuzz**`
      ---*---*---*
@@ -80,23 +80,23 @@ https://wfuzz.readthedocs.io/en/latest/user/basicusage.html
 - ولكن النسخة البرو منها Burp Suite وموجود في ال
 
 1. ساعات بتلاقي حاجات تفيدك جوة  ( robots.txt/ )  اول حاجة بتعملها بتبص علي 
-
+- ### EXAMPLE
 ![alt text](8.jpeg)
 ![alt text](9.jpeg)
 
 - :) اهو flag ولقينا ال
------------------
-2.  وركز علي الكومنتات المكتوبة عشان بتلاقي فيها حاجات مهمة source code بتبص علي ال
 
+2.  وركز علي الكومنتات المكتوبة عشان بتلاقي فيها حاجات مهمة source code بتبص علي ال
+- ### EXAMPLE
 ![alt text](12.jpeg)
 
 لقينا باسورد هينفهنا في التحدي
 
---------------------------------------------
+
 
 3.  او اي توول بتستخدمها gobuster or dirb ب Directories علي ال Brute Force  بتعمل 
 4.  ساعات بتكون فيها حاجات مهمة cookies بتشوف ال 
-
+- ### EXAMPLE
 ![alt text](7.jpeg)
 base64لقينا كود
 ![alt text](10.jpeg)
@@ -105,6 +105,7 @@ base64لقينا كود
 ![alt text](11.jpeg)
 
 ![alt text](image.png)
+
 
 **Cookies is The Solution**
 
@@ -122,13 +123,13 @@ Platforms نروح بقي لأشهر الثغرات او الاكثر شيوعا
 - **Server Side** 
 - **Client Side** 
 
-> "**Server Side**"نبدأ بأول نوع وهو
+## "**Server Side**"نبدأ بأول نوع وهو
 
-1. `**Authentication Bypass**`
+1. ## **Authentication Bypass**
   >
 cookies عن طريق انك تغير في ال admin وتخلي نفسك user او guest وهي انك تكون داخل ك     
 Request الموجودين في ال user-agent او تغير في اسم ال 
-   
+- ### EXAMPLE
    ![alt text](14.jpeg)
 guest هنا انت داخل ك 
       ![alt text](15.jpeg)
@@ -140,18 +141,19 @@ guest هنا انت داخل ك
 
    
    
-2. `**LFI & Directory traversal**`
+2. ## **LFI & Directory traversal**
   
 - flag الخاصة بالموقع وبالتالي ممكن تلاقي Directories وهي انك تقدر تتنقل في ال
 -  flag  او باسورد الادمن اللي هيوصلك لل 
     
 
-3. `**File upload**` 
+3. ## **File upload**
 
 command وغيره وفي الحالة دي ممكن تحط جوة الملف ده حاجة زي plugins وفي الثغرة دي بيبقي متاح للمستخدم انه يرفع ملفات زي الصور وال 
    
+----------------------
 
-4. `**SQl injection(SQLI)**`
+4. ## **SQl injection(SQLI)**
 
 - دي من اهم واشهر الثغرات الموجودة في تحديات الويب 
 - sqli عشان نفهم sql طب نبدأ بأول حاجة وهي ايه هو 
@@ -168,9 +170,11 @@ command وغيره وفي الحالة دي ممكن تحط جوة الملف د
 - https://www.cloudflare.com/learning/security/threats/sql-injection
 - https://www.acunetix.com/websitesecurity/sql-injection
 
-5- `**JWT attacks (JSON Web Token)**`
+-----------------------------
 
-*JavaScript Object Notation* هو اختصار ل JSONالJSON نبدأ ب ايه هو ال 
+5- ## **JWT attacks (JSON Web Token)**
+
+**JavaScript Object Notation** هو اختصار ل JSONال**JSON** نبدأ ب ايه هو ال 
        
 (Human-Readable) ك نص قابل للقراءة *Transimated data* ال هو بيخزن JSON باختصار كدا
       
@@ -184,16 +188,16 @@ command وغيره وفي الحالة دي ممكن تحط جوة الملف د
 - request للسيرفر في كل token بيبعت Client و ال Client وبعد كدا بيبعته لل
 - عشان يعرف السيرفر ان ده المستخدم كذا
 
-- decrypt وعشان تعملها encrypted بيبقي معمولها JWT وغالبا ال
+- decrypt وعشان تعملها encrypted بيبقي معمولها **JWT** وغالبا ال
 - بتستخدم الموقع ده
 https://jwt.io/#debugger-io
 
-بيتكون من 3 عناصر وهما *JWT* وال
+بيتكون من 3 عناصر وهما **JWT** وال
 - Header
 - Payload
 - Signature 
 
-EX :
+- ### EXAMPLE
 ![alt text](21.png)
 - flagفبالتالي مش هتقدر تشوف ال userموجودة role هنا ال
 - هنعدل عليها كالأتي
@@ -210,16 +214,31 @@ EX :
   
 ===*===*===*===*===*===*===*===*===*===*==*===*===*===*===*===*===*===*
 
-> Client Side نيجي بقي للنوع التاني من الثغرات وهو ال
+## Client Side نيجي بقي للنوع التاني من الثغرات وهو ال
 
-XSS (Cross Side Scripting) وده فيه ثغرة مهمة جدا وهي ال
+**XSS (Cross Side Scripting)** وده فيه ثغرة مهمة جدا وهي ال
 
 - output الخاص بالتحدي  بيطلعه input بيباخد اللي بتدخله ك web application دي غالبا بتبقي موجودة لو ال 
 - بتحطها payloads عن طريق command اي run وبالتالي ممكن ت
 - عشان تشوف السطر اللي بيطبع اللي بتدخله source code وطبعا محتاج عشان تشغل الثغرة دي وتبص علي ال
   ### وتقفل السطر ده
 - يشتغل payload عشان ال `</h2>` يبقي يتقفل ب `<h1>` يعني لو بادئ ب
-     
+- ### EXAMPLE
+- XSSهنا الصفحة بتطبع اللي بكتبه ..يعني احتمال كبير يكون فيها 
+  ![alt text](24.png)
+- **XSS** في ال payload يبقي احاول احط ابسط 
+- `<h2><script>alert(123)</script>`
+- forbidden هلاحظ انه مطلعش اللي كتبته وقالي 
+![alt text](25.png)
+- filter معني كدا ان فيه جوة 
+- ونشوف هيحصل ايه capital ل حرف small طب هنحاول نضحك عليه ونغير اي حرف 
+- `<h2><scripT>alert(123)</scripT>`
+![alt text](26.png)
+
+flag وفعلا معرفش يفلتر اللي حطيناه وطلع ال
+
+![alt text](28.png)
+
 بينقسم لثلاث اقسام وهم xss وطبعا ال
 
  - Stored XSS
