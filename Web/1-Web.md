@@ -193,6 +193,9 @@ https://jwt.io/#debugger-io
 - Payload
 - Signature 
 
+EX :
+
+
 - (: وبص بصة علي اللينكات دي
 
 - https://jwt.io/introduction
