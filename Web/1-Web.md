@@ -128,7 +128,8 @@ Platforms نروح بقي لأشهر الثغرات او الاكثر شيوعا
   >
 cookies عن طريق انك تغير في ال admin وتخلي نفسك user او guest وهي انك تكون داخل ك     
 Request الموجودين في ال user-agent او تغير في اسم ال 
-    
+   
+   
 2. `**LFI & Directory traversal**`
   
 - flag الخاصة بالموقع وبالتالي ممكن تلاقي Directories وهي انك تقدر تتنقل في ال
