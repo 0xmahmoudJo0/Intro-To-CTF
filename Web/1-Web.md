@@ -220,7 +220,7 @@ https://jwt.io/#debugger-io
 ![alt text](31.png)
 
 
-- للصفحة refresh ونحطها مكان اللي فاتت ونعمل 
+- Request ونحطها مكان اللي فاتت ونبعت ال  
 
 - :) flag هيظهرلك ال
 
