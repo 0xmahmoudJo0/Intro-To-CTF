@@ -87,7 +87,7 @@ https://wfuzz.readthedocs.io/en/latest/user/basicusage.html
 - وده بيبقي نازل مع نسخة الكاليOWASP ZAP بتتعمل في برنامج
 - ولكن النسخة البرو منها Burp Suite وموجود في ال
 
-1. ساعات بتلاقي حاجات تفيدك جوة  ( robots.txt/ )  اول حاجة بتعملها بتبص علي 
+1. ساعات بتلاقي حاجات تفيدك جوة  ( /robots.txt )  اول حاجة بتعملها بتبص علي 
 - ### EXAMPLE
 ![alt text](8.jpeg)
 ![alt text](9.jpeg)
