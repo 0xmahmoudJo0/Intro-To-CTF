@@ -212,7 +212,7 @@ https://jwt.io/#debugger-io
 ![alt text](21.png)
 - flagفبالتالي مش هتقدر تشوف ال userموجودة role هنا ال
 - هنعدل عليها كالأتي
-![alt text](27.png)
+![alt text](29.png)
 - للصفحة refresh ونحطها مكان اللي فاتت ونعمل 
 ![alt text](23.png)
 
