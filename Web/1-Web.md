@@ -129,6 +129,16 @@ Platforms نروح بقي لأشهر الثغرات او الاكثر شيوعا
 cookies عن طريق انك تغير في ال admin وتخلي نفسك user او guest وهي انك تكون داخل ك     
 Request الموجودين في ال user-agent او تغير في اسم ال 
    
+   ![alt text](14.jpeg)
+guest هنا انت داخل ك 
+      ![alt text](15.jpeg)
+
+   adminلما عدلناها وخليناها 
+   
+   **flag ظهر ال**
+      ![alt text](16.jpeg)
+
+   
    
 2. `**LFI & Directory traversal**`
   
@@ -205,7 +215,7 @@ XSS (Cross Side Scripting) وده فيه ثغرة مهمة جدا وهي ال
  - Stored XSS
  - Reflected XSS
  - DOM XSS 
-
+- :)وفي الفيديو في حل تحدي عن الثغرة دي
 بالتفصيل xss وكورس الباشمهندس ابراهيم حجازي شارح ال
   
 https://www.youtube.com/watch?v=xiw_O5shcK4&list=PLv7cogHXoVhXvHPzIl1dWtBiYUAL8baHj&index=29
