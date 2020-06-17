@@ -194,7 +194,12 @@ https://jwt.io/#debugger-io
 - Signature 
 
 EX :
-
+![alt text](21.jpeg)
+- flagفبالتالي مش هتقدر تشوف ال userموجودة role هنا ال
+- هنعدل عليها كالأتي
+![alt text](22.jpeg)
+- للصفحة refresh ونحطها مكان اللي فاتت ونعمل 
+- :) flag هيظهرلك ال
 
 - (: وبص بصة علي اللينكات دي
 
