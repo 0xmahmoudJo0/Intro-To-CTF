@@ -104,8 +104,12 @@ base64لقينا كود
 
 ![alt text](11.jpeg)
 
+![alt text](image.png)
 
-5. فيه ابه وعشان لو فيه حاجة نعدلها Request عشان نشوف Burp في ال intercept on  بنعمل      
+**Cookies is The Solution**
+
+
+5. فيه ايه وعشان لو فيه حاجة نعدلها Request عشان نشوف Burp في ال intercept on  بنعمل      
  Browser نفسهامن غير الرجوع لل  Burp في ال Response دي بنشوف ال tap في ال Send to Repeter وممكن نعمل 
    
 ===*===*===*===*===*===*===*===*===*===*==*===*===*===*===*===*===*===*
