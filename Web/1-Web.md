@@ -194,11 +194,13 @@ https://jwt.io/#debugger-io
 - Signature 
 
 EX :
-![alt text](21.jpeg)
+![alt text](21.png)
 - flagفبالتالي مش هتقدر تشوف ال userموجودة role هنا ال
 - هنعدل عليها كالأتي
-![alt text](22.jpeg)
+![alt text](22.png)
 - للصفحة refresh ونحطها مكان اللي فاتت ونعمل 
+![alt text](23.png)
+
 - :) flag هيظهرلك ال
 
 - (: وبص بصة علي اللينكات دي
