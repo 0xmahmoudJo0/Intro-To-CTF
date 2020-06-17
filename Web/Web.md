@@ -35,6 +35,8 @@
 بتبقي نازبة مع النسخة  kali linuxولو محمل ال 
 
 Browser للي جاي من Requestال capture عشان تعرف تfoxyproxyاسمه extension وعشان تشغلها محتاج 
+- Burpودي اعدادات ال 
+![alt text](1.jpeg)
 
 2- (Brute Force on Directories) وفي ادوات هتحتاجها كتير في انك تعمل 
 
@@ -42,8 +44,10 @@ Browser للي جاي من Requestال capture عشان تعرف تfoxyproxyاس
      ---*---*---*
 طريقة تنزيلها لو مش مو جودة عندك 
 - `sudo apt-get install gobuster`
+![alt text](2.jpeg)
 
 (Brute Force on Directories)ودي الطريقة لو عايز تعمل 
+![alt text](3.jpeg)
 
 وبص بصة علي الموقع ده 
 
@@ -52,11 +56,17 @@ Browser للي جاي من Requestال capture عشان تعرف تfoxyproxyاس
     - `**wfuzz**`
      ---*---*---*
 طريقة تنزيلها لو مش عندك 
+
 - `sudo apt-get install wfuzz`
+
+![alt text](4.jpeg)
+
 - (Directories , files , parameters) علي ال brute force بتعمل Wfuzz بالظبط بس gobusterدي زي ال 
     
 `FUZZ` عليها كلمة brute force وبتحط مكان الحاجة اللي عايز تعمل 
- 
+
+![alt text](5.jpeg)
+
 - (: وبص بصة علي الموقع ده
 
 https://wfuzz.readthedocs.io/en/latest/user/basicusage.html
@@ -68,10 +78,33 @@ https://wfuzz.readthedocs.io/en/latest/user/basicusage.html
 - للتحدي اللي معاك Automated Scan دي تقدر تقول عليها Crawling في حاجة اسمها ال
 - وده بيبقي نازل مع نسخة الكاليOWASP ZAP بتتعمل في برنامج
 - ولكن النسخة البرو منها Burp Suite وموجود في ال
+
 1. ساعات بتلاقي حاجات تفيدك جوة  ( robots.txt/ )  اول حاجة بتعملها بتبص علي 
+
+![alt text](8.jpeg)
+![alt text](9.jpeg)
+
+- :) اهو flag ولقينا ال
+-----------------
 2.  وركز علي الكومنتات المكتوبة عشان بتلاقي فيها حاجات مهمة source code بتبص علي ال
+
+![alt text](12.jpeg)
+
+لقينا باسورد هينفهنا في التحدي
+
+--------------------------------------------
+
 3.  او اي توول بتستخدمها gobuster or dirb ب Directories علي ال Brute Force  بتعمل 
 4.  ساعات بتكون فيها حاجات مهمة cookies بتشوف ال 
+
+![alt text](7.jpeg)
+base64لقينا كود
+![alt text](10.jpeg)
+:) flag هنشوف ال admin لو خليناها Guestطلع
+
+![alt text](11.jpeg)
+
+
 5. فيه ابه وعشان لو فيه حاجة نعدلها Request عشان نشوف Burp في ال intercept on  بنعمل      
  Browser نفسهامن غير الرجوع لل  Burp في ال Response دي بنشوف ال tap في ال Send to Repeter وممكن نعمل 
    
