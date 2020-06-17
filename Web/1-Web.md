@@ -209,10 +209,17 @@ https://jwt.io/#debugger-io
 - Signature 
 
 - ### EXAMPLE
-![alt text](21.png)
+![alt text](30.png)
 - flagفبالتالي مش هتقدر تشوف ال userموجودة role هنا ال
-- هنعدل عليها كالأتي
-![alt text](29.png)
+- فهنغير بعض الحاجات عشان نخش كأدمن
+1.  Secret key عشان نعرف ال john هنعمل كراك ب 
+![alt text](32.png)
+
+2.  كالأتي jwt هنعدل علي ال 
+
+![alt text](31.png)
+
+
 - للصفحة refresh ونحطها مكان اللي فاتت ونعمل 
 
 - :) flag هيظهرلك ال
