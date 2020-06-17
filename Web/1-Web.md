@@ -44,7 +44,7 @@ Browser للي جاي من Requestال capture عشان تعرف تfoxyproxyاس
 - وفي ادوات هتحتاجها كتير في انك تعمل 
 
     - `**gobuster**`
-     ---*---*---*
+     
 - طريقة تنزيلها لو مش مو جودة عندك 
 
 - `sudo apt-get install gobuster`
