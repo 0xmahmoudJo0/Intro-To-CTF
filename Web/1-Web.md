@@ -36,7 +36,7 @@
 
 Browser للي جاي من Requestال capture عشان تعرف تfoxyproxyاسمه extension وعشان تشغلها محتاج 
 - Burpودي اعدادات ال 
-![alt text](1.jpeg)
+![image](https://raw.githubusercontent.com/Mahmoud-joo/Intro-To-CTF/master/Web/WebImages/1.jpeg)
 
 
 ===*===*===*===*===*===*===*===*===*===*==*===*===*===*===*===*===*===*
@@ -49,10 +49,10 @@ Browser للي جاي من Requestال capture عشان تعرف تfoxyproxyاس
 
 - `sudo apt-get install gobuster`
 
-![alt text](2.jpeg)
+![image](https://raw.githubusercontent.com/Mahmoud-joo/Intro-To-CTF/master/Web/WebImages/2.jpeg)
 
 (Brute Force on Directories)ودي الطريقة لو عايز تعمل 
-![alt text](3.jpeg)
+![image](https://raw.githubusercontent.com/Mahmoud-joo/Intro-To-CTF/master/Web/WebImages/3.jpeg)
 
 - وبص بصة علي الموقع ده 
 
@@ -67,13 +67,13 @@ Browser للي جاي من Requestال capture عشان تعرف تfoxyproxyاس
 
 - `sudo apt-get install wfuzz`
 
-![alt text](4.jpeg)
+![image](https://raw.githubusercontent.com/Mahmoud-joo/Intro-To-CTF/master/Web/WebImages/4.jpeg)
 
 - (Directories , files , parameters) علي ال brute force بتعمل Wfuzz بالظبط بس gobusterدي زي ال 
     
 `FUZZ` عليها كلمة brute force وبتحط مكان الحاجة اللي عايز تعمل 
 
-![alt text](5.jpeg)
+![image](https://raw.githubusercontent.com/Mahmoud-joo/Intro-To-CTF/master/Web/WebImages/5.jpeg)
 
 - (: وبص بصة علي الموقع ده
 
@@ -89,8 +89,8 @@ https://wfuzz.readthedocs.io/en/latest/user/basicusage.html
 
 1. ساعات بتلاقي حاجات تفيدك جوة  ( /robots.txt )  اول حاجة بتعملها بتبص علي 
 - ### EXAMPLE
-![alt text](8.jpeg)
-![alt text](9.jpeg)
+![image](https://raw.githubusercontent.com/Mahmoud-joo/Intro-To-CTF/master/Web/WebImages/8.jpeg)
+![image](https://raw.githubusercontent.com/Mahmoud-joo/Intro-To-CTF/master/Web/WebImages/9.jpeg)
 
 - :) اهو flag ولقينا ال
 
@@ -98,7 +98,7 @@ https://wfuzz.readthedocs.io/en/latest/user/basicusage.html
 
 2.  وركز علي الكومنتات المكتوبة عشان بتلاقي فيها حاجات مهمة source code بتبص علي ال
 - ### EXAMPLE
-![alt text](12.jpeg)
+![image](https://raw.githubusercontent.com/Mahmoud-joo/Intro-To-CTF/master/Web/WebImages/12.jpeg)
 
 لقينا باسورد هينفهنا في التحدي
 
@@ -107,12 +107,12 @@ https://wfuzz.readthedocs.io/en/latest/user/basicusage.html
 3.  او اي توول بتستخدمها gobuster or dirb ب Directories علي ال Brute Force  بتعمل 
 4.  ساعات بتكون فيها حاجات مهمة cookies بتشوف ال 
 - ### EXAMPLE
-![alt text](7.jpeg)
+![image](https://raw.githubusercontent.com/Mahmoud-joo/Intro-To-CTF/master/Web/WebImages/7.jpeg)
 base64لقينا كود
-![alt text](10.jpeg)
+![image](https://raw.githubusercontent.com/Mahmoud-joo/Intro-To-CTF/master/Web/WebImages/10.jpeg)
 :) flag هنشوف ال admin لو خليناها Guestطلع
 
-![alt text](11.jpeg)
+![image](https://raw.githubusercontent.com/Mahmoud-joo/Intro-To-CTF/master/Web/WebImages/11.jpeg)
 
 ![alt text](image.png)
 
@@ -122,7 +122,7 @@ base64لقينا كود
 
 5. فيه ايه وعشان لو فيه حاجة نعدلها Request عشان نشوف Burp في ال intercept on  بنعمل      
  Browser نفسهامن غير الرجوع لل  Burp في ال Response دي بنشوف ال tap في ال Send to Repeter وممكن نعمل 
-   ![alt text](18.png)
+![image](https://raw.githubusercontent.com/Mahmoud-joo/Intro-To-CTF/master/Web/WebImages/8.png)
 
 ===*===*===*===*===*===*===*===*===*===*==*===*===*===*===*===*===*===*
 
@@ -140,14 +140,14 @@ Platforms نروح بقي لأشهر الثغرات او الاكثر شيوعا
 cookies عن طريق انك تغير في ال admin وتخلي نفسك user او guest وهي انك تكون داخل ك     
 Request الموجودين في ال user-agent او تغير في اسم ال 
 - ### EXAMPLE
-   ![alt text](14.jpeg)
+![image](https://raw.githubusercontent.com/Mahmoud-joo/Intro-To-CTF/master/Web/WebImages/14.jpeg)
 guest هنا انت داخل ك 
-      ![alt text](15.jpeg)
+![image](https://raw.githubusercontent.com/Mahmoud-joo/Intro-To-CTF/master/Web/WebImages/15.jpeg)
 
    adminلما عدلناها وخليناها 
    
    **flag ظهر ال**
-      ![alt text](16.jpeg)
+![image](https://raw.githubusercontent.com/Mahmoud-joo/Intro-To-CTF/master/Web/WebImages/16.jpeg)
 
    
    
@@ -209,22 +209,22 @@ https://jwt.io/#debugger-io
 - Signature 
 
 - ### EXAMPLE
-![alt text](30.png)
+![image](https://raw.githubusercontent.com/Mahmoud-joo/Intro-To-CTF/master/Web/WebImages/30.png)
 - flagفبالتالي مش هتقدر تشوف ال userموجودة role هنا ال
 - فهنغير بعض الحاجات عشان نخش كأدمن
 1.  Secret key عشان نعرف ال john هنعمل كراك ب 
-![alt text](32.png)
+![image](https://raw.githubusercontent.com/Mahmoud-joo/Intro-To-CTF/master/Web/WebImages/32.png)
 
 2.  كالأتي jwt هنعدل علي ال 
 
-![alt text](31.png)
+![image](https://raw.githubusercontent.com/Mahmoud-joo/Intro-To-CTF/master/Web/WebImages/31.png)
 
 
 - Request ونحطها مكان اللي فاتت ونبعت ال  
 
 - :) flag هيظهرلك ال
 
-![alt text](23.png)
+![image](https://raw.githubusercontent.com/Mahmoud-joo/Intro-To-CTF/master/Web/WebImages/23.png)
 
 - (: وبص بصة علي اللينكات دي
 
@@ -244,19 +244,19 @@ https://jwt.io/#debugger-io
 - يشتغل payload عشان ال `</h2>` يبقي يتقفل ب `<h1>` يعني لو بادئ ب
 - ### EXAMPLE
 - XSSهنا الصفحة بتطبع اللي بكتبه ..يعني احتمال كبير يكون فيها 
-  ![alt text](24.png)
+![image](https://raw.githubusercontent.com/Mahmoud-joo/Intro-To-CTF/master/Web/WebImages/24.png)
 - **XSS** في ال payload يبقي احاول احط ابسط 
 - `<h2><script>alert(123)</script>`
 - forbidden هلاحظ انه مطلعش اللي كتبته وقالي 
-![alt text](25.png)
+![image](https://raw.githubusercontent.com/Mahmoud-joo/Intro-To-CTF/master/Web/WebImages/25.png)
 - filter معني كدا ان فيه جوة 
 - ونشوف هيحصل ايه capital ل حرف small طب هنحاول نضحك عليه ونغير اي حرف 
 - `<h2><scripT>alert(123)</scripT>`
-![alt text](26.png)
+![image](https://raw.githubusercontent.com/Mahmoud-joo/Intro-To-CTF/master/Web/WebImages/26.png)
 
 flag وفعلا معرفش يفلتر اللي حطيناه وطلع ال
 
-![alt text](28.png)
+![image](https://raw.githubusercontent.com/Mahmoud-joo/Intro-To-CTF/master/Web/WebImages/28.png)
 
 بينقسم لثلاث اقسام وهم xss وطبعا ال
 
