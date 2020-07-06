@@ -1,0 +1,3 @@
+1. [Numbre System & Bitwise Operations](https://www.nakerah.net/index.php?media/%D9%85%D9%82%D8%AF%D9%85%D8%A9-%D8%B9%D9%86-%D8%AA%D8%AD%D8%AF%D9%8A%D8%A7%D8%AA-%D8%A7%D9%84%D8%AA%D9%82%D8%A7%D8%B7-%D8%A7%D9%84%D8%B9%D9%84%D9%85-10-cryptography-ctfs-part-1.376/)
+2. [Encoding & Hashes](https://www.nakerah.net/index.php?media/%D9%85%D9%82%D8%AF%D9%85%D8%A9-%D8%B9%D9%86-%D8%AA%D8%AD%D8%AF%D9%8A%D8%A7%D8%AA-%D8%A7%D9%84%D8%AA%D9%82%D8%A7%D8%B7-%D8%A7%D9%84%D8%B9%D9%84%D9%85-11-cryptography-ctfs-part-2.377/)
+3. [Encryptions & Block Ciphers](https://www.nakerah.net/index.php?media/%D9%85%D9%82%D8%AF%D9%85%D8%A9-%D8%B9%D9%86-%D8%AA%D8%AD%D8%AF%D9%8A%D8%A7%D8%AA-%D8%A7%D9%84%D8%AA%D9%82%D8%A7%D8%B7-%D8%A7%D9%84%D8%B9%D9%84%D9%85-12-cryptography-ctfs-part-3.379/)
