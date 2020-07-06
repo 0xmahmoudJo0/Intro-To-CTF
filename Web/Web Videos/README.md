@@ -1,3 +1,3 @@
-1. https://www.nakerah.net/index.php?media/%D9%85%D9%82%D8%AF%D9%85%D8%A9-%D8%B9%D9%86-%D8%AA%D8%AD%D8%AF%D9%8A%D8%A7%D8%AA-%D8%A7%D9%84%D8%AA%D9%82%D8%A7%D8%B7-%D8%A7%D9%84%D8%B9%D9%84%D9%85-7-web-ctfs-part-1.259/
-2. https://www.nakerah.net/index.php?media/%D9%85%D9%82%D8%AF%D9%85%D8%A9-%D8%B9%D9%86-%D8%AA%D8%AD%D8%AF%D9%8A%D8%A7%D8%AA-%D8%A7%D9%84%D8%AA%D9%82%D8%A7%D8%B7-%D8%A7%D9%84%D8%B9%D9%84%D9%85-8-web-ctfs-part-2.260/
-3. https://www.nakerah.net/index.php?media/%D9%85%D9%82%D8%AF%D9%85%D8%A9-%D8%B9%D9%86-%D8%AA%D8%AD%D8%AF%D9%8A%D8%A7%D8%AA-%D8%A7%D9%84%D8%AA%D9%82%D8%A7%D8%B7-%D8%A7%D9%84%D8%B9%D9%84%D9%85-9-web-ctfs-part-3.261/
+1. [Web CTFs part 1] (https://www.nakerah.net/index.php?media/%D9%85%D9%82%D8%AF%D9%85%D8%A9-%D8%B9%D9%86-%D8%AA%D8%AD%D8%AF%D9%8A%D8%A7%D8%AA-%D8%A7%D9%84%D8%AA%D9%82%D8%A7%D8%B7-%D8%A7%D9%84%D8%B9%D9%84%D9%85-7-web-ctfs-part-1.259/)
+2. [Web CTFs part 2] (https://www.nakerah.net/index.php?media/%D9%85%D9%82%D8%AF%D9%85%D8%A9-%D8%B9%D9%86-%D8%AA%D8%AD%D8%AF%D9%8A%D8%A7%D8%AA-%D8%A7%D9%84%D8%AA%D9%82%D8%A7%D8%B7-%D8%A7%D9%84%D8%B9%D9%84%D9%85-8-web-ctfs-part-2.260/)
+3. [Web CTFs part 3] (https://www.nakerah.net/index.php?media/%D9%85%D9%82%D8%AF%D9%85%D8%A9-%D8%B9%D9%86-%D8%AA%D8%AD%D8%AF%D9%8A%D8%A7%D8%AA-%D8%A7%D9%84%D8%AA%D9%82%D8%A7%D8%B7-%D8%A7%D9%84%D8%B9%D9%84%D9%85-9-web-ctfs-part-3.261/)
