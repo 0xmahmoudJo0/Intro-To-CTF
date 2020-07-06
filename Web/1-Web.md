@@ -114,7 +114,7 @@ base64لقينا كود
 
 ![image](https://raw.githubusercontent.com/Mahmoud-joo/Intro-To-CTF/master/Web/WebImages/11.jpeg)
 
-![alt text](image.png)
+![image](https://raw.githubusercontent.com/Mahmoud-joo/Intro-To-CTF/master/Web/WebImages/image.png)
 
 
 **Cookies is The Solution**
@@ -122,7 +122,7 @@ base64لقينا كود
 
 5. فيه ايه وعشان لو فيه حاجة نعدلها Request عشان نشوف Burp في ال intercept on  بنعمل      
  Browser نفسهامن غير الرجوع لل  Burp في ال Response دي بنشوف ال tap في ال Send to Repeter وممكن نعمل 
-![image](https://raw.githubusercontent.com/Mahmoud-joo/Intro-To-CTF/master/Web/WebImages/8.png)
+![image](https://raw.githubusercontent.com/Mahmoud-joo/Intro-To-CTF/master/Web/WebImages/18.png)
 
 ===*===*===*===*===*===*===*===*===*===*==*===*===*===*===*===*===*===*
 
