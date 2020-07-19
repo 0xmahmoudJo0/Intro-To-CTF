@@ -13,6 +13,12 @@ echo -e "\e[36m[*] \e[92mstegcracker installed successfully"
 ### segsnow ###
 apt-get install stegsnow > /dev/null 2>&1
 echo -e "\e[36m[*] \e[92mstegsnow installed successfully"
+### snowcracker ###
+#!/bin/bash
+wget -q -O /usr/bin/snowcracker https://github.com/0xMohammed/Tools/raw/master/snowcracker.py 
+chmod a+x /usr/bin/snowcracker && dos2unix /usr/bin/snowcracker
+echo -e "\e[36m[*] \e[92msnowcracker installed successfully"
+
 ### openpuff ###
 #!/bin/bash
 
