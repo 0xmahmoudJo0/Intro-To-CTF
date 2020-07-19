@@ -195,19 +195,5 @@ pip3 install stegoveritas > /dev/null 2>&1
 stegoveritas_install_deps > /dev/null 2>&1
 echo -e "\e[36m[*] \e[92mstegoVeritas installed successfully"
 
-### openpuff ###
-#!/bin/bash
-
-set -e
-rm -r /opt/openpuff > /dev/null 2>&1 || wget -q -O /tmp/openpuff.zip http://embeddedsw.net/zip/OpenPuff_release.zip
-unzip /tmp/openpuff.zip -d /opt/openpuff > /dev/null 2>&1
-rm /tmp/openpuff.zip
-
-cat << EOF > /usr/bin/openpuff
-#!/bin/bash
-wine /opt/openpuff/OpenPuff_release/OpenPuff.exe \$@
-EOF
-chmod +x /usr/bin/openpuff
-echo -e "\e[36m[*] \e[92mopenpuff installed successfully"
 
 
