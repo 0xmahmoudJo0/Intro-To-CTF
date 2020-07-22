@@ -20,6 +20,11 @@ apt-get install dos2unix > /dev/null 2>&1
 chmod a+x /usr/bin/snowcracker && dos2unix /usr/bin/snowcracker
 echo -e "\e[36m[*] \e[92msnowcracker installed successfully"
 
+### stegify ###
+#!/bin/bash
+go get -u github.com/DimitarPetrov/stegify
+echo -e "\e[36m[*] \e[92mstegify installed successfully"
+
 ### openpuff ###
 #!/bin/bash
 
