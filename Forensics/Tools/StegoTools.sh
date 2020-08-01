@@ -40,7 +40,7 @@ EOF
 chmod +x /usr/bin/openpuff
 echo -e "\e[36m[*] \e[92mopenpuff installed successfully"
 
-### mp3stego.sh ###
+### mp3stego ###
 #!/bin/bash
 set -e
 
