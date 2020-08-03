@@ -29,7 +29,7 @@ echo -e "\e[36m[*] \e[92mstegify installed successfully"
 #!/bin/bash
 apt install wine > /dev/null 2>&1
 set -e
-rm -r /opt/openpuff > /dev/null 2>&1 || wget -q -O /tmp/openpuff.zip http://embeddedsw.net/zip/OpenPuff_release.zip
+rm -r /opt/openpuff > /dev/null 2>&1 ; wget -q -O /tmp/openpuff.zip http://embeddedsw.net/zip/OpenPuff_release.zip
 unzip /tmp/openpuff.zip -d /opt/openpuff > /dev/null 2>&1
 rm /tmp/openpuff.zip
 
@@ -45,7 +45,7 @@ echo -e "\e[36m[*] \e[92mopenpuff installed successfully"
 set -e
 
 wget -q -O /tmp/mp3stego.zip http://www.petitcolas.net/fabien/software/MP3Stego_1_1_18.zip
-rm -r /opt/mp3stego > /dev/null 2>&1 || unzip /tmp/mp3stego.zip -d /opt/mp3stego  > /dev/null 2>&1 
+rm -r /opt/mp3stego > /dev/null 2>&1 ; unzip /tmp/mp3stego.zip -d /opt/mp3stego  > /dev/null 2>&1 
 rm /tmp/mp3stego.zip
 
 cat << EOF > /usr/bin/mp3stego-decode
@@ -141,7 +141,7 @@ set -e
 
 wget -q -O /tmp/stegdetect.deb http://old-releases.ubuntu.com/ubuntu/pool/universe/s/stegdetect/stegdetect_0.6-6_amd64.deb
 
-dpkg -i /tmp/stegdetect.deb > /dev/null 2>&1 || apt-get install -f -y > /dev/null 2>&1
+dpkg -i /tmp/stegdetect.deb > /dev/null 2>&1 ; apt-get install -f -y > /dev/null 2>&1
 rm /tmp/stegdetect.deb
 
 echo -e "\e[36m[*] \e[92mstegdetect installed successfully"
@@ -188,8 +188,8 @@ echo -e "\e[36m[*] \e[92mstegpy installed successfully"
 
 set -e
 
-rm -r /opt/spectrology > /dev/null 2>&1 || git clone https://github.com/solusipse/spectrology.git /opt/spectrology > /dev/null 2>&1
-rm /usr/bin/spectrology > /dev/null 2>&1 || ln -s /opt/spectrology/spectrology.py /usr/bin/spectrology 
+rm -r /opt/spectrology > /dev/null 2>&1 ; git clone https://github.com/solusipse/spectrology.git /opt/spectrology > /dev/null 2>&1
+rm /usr/bin/spectrology > /dev/null 2>&1 ; ln -s /opt/spectrology/spectrology.py /usr/bin/spectrology 
 
 echo -e "\e[36m[*] \e[92mspectrology installed successfully" 
 
