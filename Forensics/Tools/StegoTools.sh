@@ -61,6 +61,7 @@ wine /opt/mp3stego/MP3Stego_1_1_18/MP3Stego/Encode.exe \$@
 EOF
 chmod +x /usr/bin/mp3stego-encode 
 echo -e "\e[36m[*] \e[92mmp3stego installed successfully"
+
 ### outguess ###
 
 set -e
