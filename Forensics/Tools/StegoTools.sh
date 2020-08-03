@@ -27,7 +27,7 @@ echo -e "\e[36m[*] \e[92mstegify installed successfully"
 
 ### openpuff ###
 #!/bin/bash
-
+apt install wine > /dev/null 2>&1
 set -e
 rm -r /opt/openpuff > /dev/null 2>&1 || wget -q -O /tmp/openpuff.zip http://embeddedsw.net/zip/OpenPuff_release.zip
 unzip /tmp/openpuff.zip -d /opt/openpuff > /dev/null 2>&1
