@@ -15,9 +15,9 @@ apt-get install stegsnow > /dev/null 2>&1
 echo -e "\e[36m[*] \e[92mstegsnow installed successfully"
 ### snowcracker ###
 #!/bin/bash
-wget -q -O /usr/bin/snowcracker https://raw.githubusercontent.com/Mahmoud-joo/Tools/master/snowcracker.py
+wget -q -O /usr/bin/snowcracker https://raw.githubusercontent.com/0xMohammed/SnowCracker/master/snowcracker.py
 apt-get install dos2unix > /dev/null 2>&1
-chmod a+x /usr/bin/snowcracker && dos2unix /usr/bin/snowcracker
+chmod a+x /usr/bin/snowcracker && dos2unix /usr/bin/snowcracker > /dev/null 2>&1
 echo -e "\e[36m[*] \e[92msnowcracker installed successfully"
 
 ### stegify ###
