@@ -74,8 +74,8 @@ echo -e "\e[36m[*] \e[92moutguess installed successfully"
 #!/bin/bash
 
 set -e
-wget -q -O /tmp/openstego.deb https://github.com/syvaidya/openstego/releases/download/openstego-0.7.1/openstego_0.7.1-1_amd64.deb
-dpkg -i /tmp/openstego.deb > /dev/null 2>&1 ; apt-get install -f -y > /dev/null 2>&1
+wget -q -O /tmp/openstego.deb https://github.com/syvaidya/openstego/releases/download/openstego-0.7.4/openstego_0.7.4-1_amd64.deb
+dpkg -i /tmp/openstego.deb > /dev/null 2>&1 || apt-get install -f -y > /dev/null 2>&1
 rm /tmp/openstego.deb
 cat << EOF > /usr/bin/openstego
 #!/bin/sh
@@ -83,7 +83,6 @@ java -jar /usr/share/openstego/lib/openstego.jar \$@
 EOF
 chmod +x /usr/bin/openstego
 echo -e "\e[36m[*] \e[92mopenstego installed successfully"
-
 ### jsteg ###
 #!/bin/bash
 
